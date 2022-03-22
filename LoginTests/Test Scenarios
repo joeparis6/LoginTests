@@ -1,0 +1,68 @@
+***** Login Test Scenarios *****
+
+Scenario 1:
+A registered user enters correctly their registered username and password, clicks login button
+Result:
+User ingresses to the site
+
+Scenario 2:
+A registered user enters the correct username but the incorrect password, clicks login button
+Result:
+"Wrong password" message
+
+Scenario 3:
+A registered user enters the correct password but an incorrect registered username, clicks login button
+Result:
+"Wrong password" message
+
+Scenario 4:
+A user enters a correct username and clicks the login button without entering a password
+Result:
+"Please fill out Username and Password" message
+
+Scenario 5:
+A user enters a password and clicks the login button without entering a username
+Result:
+"Please fill out Username and Password" message
+
+Scenario 6:
+A user clicks the login button without entering a username or password
+Result:
+"Please fill out Username and Password" message
+
+Scenario 7:
+An user enters a username that has not been registered and a valid password, clicks login button
+Result:
+"User does not exist" message
+
+***** Sign-Up Test Scenarios *****
+
+Scenario 1:
+A user enters a registered username and the corresponding password, clicks sign-up button
+Result:
+"This user already exists" message
+
+Scenario 2:
+A user enters a registered username and an incorrect password, clicks sign-in button
+Result:
+"This user already exists" message
+
+Scenario 3:
+A user enters a un-registered username and a valid password, clicks sign-in button
+Result:
+"Sign up successful" message
+
+Scenario 4:
+A user enters an unregistered username and clicks sign up before entering in a password
+Result:
+"Please fill out Username and Password" message
+
+Scenario 5:
+A user does not enter a username, but enters a password and clicks the sign-in button
+Result:
+"Please fill out Username and Password" message
+
+Sceanrio 6:
+A user does not enter a username or password, clicks sign-in button
+Result:
+"Please fill out Username and Password" message
